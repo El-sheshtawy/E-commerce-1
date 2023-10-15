@@ -1,0 +1,7 @@
+@include('site.user.layouts.styles')
+@include('site.user.layouts.nav')
+@yield('content')
+@include('site.user.layouts.footer')
+@include('site.user.layouts.scripts')
+@yield('js_extra')
+@yield('alert')
